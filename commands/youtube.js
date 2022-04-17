@@ -37,15 +37,15 @@ module.exports = {
     ); //Made using discordjs-activity package
     let embed = new MessageEmbed()
       .setAuthor(
-        "YouTube Together",
+        "YouTube Skupaj",
         "https://cdn.discordapp.com/emojis/749289646097432667.png?v=1"
       )
       .setColor("#FF0000").setDescription(`
-Using **YouTube Together** you can watch YouTube with your friends in a Voice Channel. Click *Join YouTube Together* to join in!
+Če uporabljas YouTube skupaj lahko gledas videje z prijatelji v kanalu!
 
-__**[Join YouTube Together](https://discord.com/invite/${Invite.code})**__
+__**[Pridruži se YouTube skupaj!](https://discord.com/invite/${Invite.code})**__
 
-⚠ **Note:** This only works in Desktop
+⚠ **Opomba:** To deluje samo na **NAMIZNEM RAČUNALNIKU**
 `);
     message.channel.send(embed);
   },
@@ -82,15 +82,15 @@ __**[Join YouTube Together](https://discord.com/invite/${Invite.code})**__
       ); //Made using discordjs-activity package
       let embed = new MessageEmbed()
         .setAuthor(
-          "YouTube Together",
+          "YouTube Skupaj",
           "https://cdn.discordapp.com/emojis/749289646097432667.png?v=1"
         )
         .setColor("#FF0000").setDescription(`
-Using **YouTube Together** you can watch YouTube with your friends in a Voice Channel. Click *Join YouTube Together* to join in!
+Če uporabljas YouTube skupaj lahko gledas videje z prijatelji v kanalu!
 
-__**[Join YouTube Together](https://discord.com/invite/${Invite.code})**__
+__**[Pridruži se YouTube skupaj!](https://discord.com/invite/${Invite.code})**__
 
-⚠ **Note:** This only works in Desktop
+⚠ **Opomba:** To deluje samo na **NAMIZNEM RACUNALNIKU**
 `);
       interaction.send(embed.toJSON());
     },
